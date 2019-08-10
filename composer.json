@@ -1,0 +1,26 @@
+{
+    "name": "linhtetpaing/todolist",
+    "description": "can create the to do list of your stuff",
+    "authors": [
+        {
+            "name": "Lin Htet Paing",
+            "email": "linhtetpaing9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LinHtetPaing\\Todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "LinHtetPaing\\Todolist\\": "src/"
+        }
+    }
+}
